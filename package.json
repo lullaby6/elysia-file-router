@@ -1,5 +1,5 @@
 {
-  "name": "@lullaby6/elysia-file-router",
+  "name": "elysia-file-routing",
   "version": "1.0.0",
   "description": "File router for Elysia.js.",
   "module": "index.ts",
@@ -12,16 +12,19 @@
   "keywords": [
     "elysia",
     "elysiajs",
+    "router",
+    "routing",
     "file-router",
+    "file-routing",
     "file-based-router"
   ],
   "author": "lullaby6",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lullaby6/elysia-file-router"
+    "url": "git+https://github.com/lullaby6/elysia-file-routing"
   },
-  "homepage": "https://github.com/lullaby6/elysia-file-router",
+  "homepage": "https://github.com/lullaby6/elysia-file-routing",
   "devDependencies": {
     "@types/bun": "latest"
   },
