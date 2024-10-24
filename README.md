@@ -47,7 +47,8 @@ export default function ({params: { id }}) {
 ```
 
 The file name specifies the request method
-for example a simple POST endpoint:
+
+for example a simple ```POST``` endpoint:
 
 ```js
 // src/routes/user/post.ts
