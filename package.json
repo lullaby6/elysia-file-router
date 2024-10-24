@@ -1,7 +1,27 @@
 {
   "name": "elysia-file-router",
+  "version": "1.0.0",
+  "description": "File router for Elysia.js.",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "push": "git add . && git commit -m 'publish' && git push",
+    "publish": "bun publish --access=public",
+    "push-publish": "git add . && git commit -m 'publish' && git push && bun publish --access=public"
+  },
+  "keywords": [
+    "elysia",
+    "elysiajs",
+    "file-router",
+    "file-based-router"
+  ],
+  "author": "lullaby6",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lullaby6/elysia-file-router"
+  },
+  "homepage": "https://github.com/lullaby6/elysia-file-router",
   "devDependencies": {
     "@types/bun": "latest"
   },
