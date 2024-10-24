@@ -18,9 +18,10 @@ By default the value for ```fileRouter``` is ```"./routes/"```.
 // src/index.ts
 import { Elysia } from "elysia";
 import fileRouter from 'elysia-file-router'
+import path from "path";
 
 const app = new Elysia()
-  .use(fileRouter('./routes/'))
+  .use(fileRouter(path.join(__dirname, 'routes')))
   .listen(3000);
 ```
 
