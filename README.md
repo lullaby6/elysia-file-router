@@ -5,7 +5,7 @@ File router for Elysia.js inspired by Next.js, Remix, Astro...
 ## Install
 
 ```bash
-bun install elysia-file-router
+bun install @lullaby6/elysia-file-router
 ```
 
 ## Usage
