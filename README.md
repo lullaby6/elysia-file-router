@@ -12,7 +12,7 @@ bun install elysia-file-router
 
 Import and use the plugin ```fileRouter``` in the Elysia app.
 
-By default the value for ```fileRouter``` is "./routes/".
+By default the value for ```fileRouter``` is ```"./routes/"```.
 
 ```js
 // src/index.ts
